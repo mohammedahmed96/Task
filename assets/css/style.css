@@ -174,7 +174,16 @@ body{
     }
 }
 @media (max-width: 600px){
+    .footer{
+        display: block;
+    }
+    .footer img{
+        display: none;
+    }
     .footer p{
-
+        font-size: 15px;
+    }
+    .footer ul li i {
+       padding: 20px;
     }
 }
